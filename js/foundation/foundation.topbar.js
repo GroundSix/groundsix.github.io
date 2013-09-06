@@ -92,13 +92,11 @@
           if (!topbar.hasClass('expanded')) {
             if (topbar.hasClass('fixed')) {
               topbar.parent().addClass('fixed');
-              topbar.removeClass('fixed');
               $('body').css('padding-top',offst);
             }
           } else if (topbar.parent().hasClass('fixed')) {
-            topbar.parent().removeClass('fixed');
             topbar.addClass('fixed');
-            $('body').css('padding-top','0');
+            $('body').css('padding-top',offst);
 
             if (self.settings.scrolltop) {
               window.scrollTo(0,0);
@@ -280,8 +278,7 @@
             }
 
             else if ($window.scrollTop() < distance) {
-              $(klass).removeClass("fixed");
-              $('body').css('padding-top','0');
+              $('body').css('padding-top',offst);
             }
         });
       }

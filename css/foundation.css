@@ -2619,8 +2619,8 @@ form.custom {
 
 .top-bar {
   overflow: hidden;
-  height: 45px;
-  line-height: 45px;
+  height: 90px;
+  line-height: 90px;
   position: relative;
   background: #111111;
   margin-bottom: 1.875em; }
