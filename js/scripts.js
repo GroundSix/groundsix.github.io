@@ -5,7 +5,7 @@ $(window).scroll(function() {
 
 // Nav scroll to #anchor
 $(function() {
-    if ($(window).width() >= 768) {
+    if ($(window).width() >= 1024) {
         $('#home').click(function(e) {
             e.preventDefault();
             $('html, body').animate({
