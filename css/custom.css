@@ -26,6 +26,7 @@ p a, p a:hover { color: #000; font-weight: bold; }
 /* Nav */
 .top-bar { margin: 0 ; background: #fff; color:#000; }
 .top-bar *, .top-bar-section ul, .contain-to-grid, .top-bar-section ul li > a, .top-bar-section li a:not(.button) { background: #fff; color:#000;  font-family: "adelle", Georgia, Serif; text-transform: uppercase; letter-spacing: 2px; line-height: 90px; }
+.top-bar-section ul li > a:hover { color: #999; }
 .contain-to-grid .top-bar { max-width: 1323px; }
 #menu-icon { width: auto; height: 60px; }
 .shadow { box-shadow: 0 0 5px -2px #000;  }

@@ -10,15 +10,11 @@
 	
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/custom.css">
-
-    <script src="js/vendor/custom.modernizr.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
     <script type="text/javascript" src="//use.typekit.net/xpw2mtu.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-    <script src="js/google.map.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script data-main="js/app" src="js/require.js"></script>
+
 </head>
 <body>
 
@@ -32,11 +28,11 @@
         </ul>
         <section class="top-bar-section">
             <ul class="right">
-                <li><a id="businesses" href="#">Businesses</a>
-                <li><a id="ideas-anchor" href="#">The Idea</a>
-                <li><a id="the-team" href="#">The Team</a>
-                <li><a id="g6-life" href="#">G6 Life</a>
-                <li><a id="contact" href="#">Contact</a>
+                <li><a id="businesses" href="#" data-scrollto="panel-two" data-scrolloffset="86">Businesses</a>
+                <li><a id="ideas-anchor" href="#" data-scrollto="panel-three" data-scrolloffset="86">The Idea</a>
+                <li><a id="the-team" href="#" data-scrollto="panel-four" data-scrolloffset="90">The Team</a>
+                <li><a id="g6-life" href="#" data-scrollto="panel-five" data-scrolloffset="86">G6 Life</a>
+                <li><a id="contact" href="#" data-scrollto="panel-six" data-scrolloffset="90">Contact</a>
                 </li>
             </ul>
         </section>
@@ -301,28 +297,5 @@
             </div>
         </div>
     </div>
-    <script>
-        document.write('<script src=' +
-        ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
-        '.js><\/script>')
-    </script>
-    <script src="js/foundation/foundation.js"></script>
-    <script src="js/foundation/foundation.alerts.js"></script>
-    <script src="js/foundation/foundation.clearing.js"></script>
-    <script src="js/foundation/foundation.cookie.js"></script>
-    <script src="js/foundation/foundation.dropdown.js"></script>
-    <script src="js/foundation/foundation.forms.js"></script>
-    <script src="js/foundation/foundation.joyride.js"></script>
-    <script src="js/foundation/foundation.magellan.js"></script>
-    <script src="js/foundation/foundation.orbit.js"></script>
-    <script src="js/foundation/foundation.placeholder.js"></script>
-    <script src="js/foundation/foundation.reveal.js"></script>
-    <script src="js/foundation/foundation.section.js"></script>
-    <script src="js/foundation/foundation.tooltips.js"></script>
-    <script src="js/foundation/foundation.interchange.js"></script>
-    <script src="js/foundation/foundation.topbar.js"></script>
-    <script>
-        $(document).foundation();
-    </script>
 </body>
 </html>
