@@ -55,12 +55,17 @@ p a,p a:hover {
 }
 
 .top-bar *,.top-bar-section ul,.contain-to-grid,.top-bar-section ul li > a,.top-bar-section li a:not(.button) {
-    background:#fff;
+    background:#fff !important;
     color:#000;
     font-family:adelle, Georgia, Serif;
     text-transform:uppercase;
     letter-spacing:2px;
-    line-height:90px;
+    line-height:90px !important;
+}
+
+.top-bar-section ul li:hover > a {
+    background:#fff !important;
+    color:#000 !important;
 }
 
 .contain-to-grid .top-bar {
