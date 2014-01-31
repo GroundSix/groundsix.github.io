@@ -88,6 +88,14 @@ a.menu-icon span {
     -webkit-box-shadow: 1px 10px 1px 1px black, 1px 16px 1px 1px black, 1px 22px 1px 1px black;
     box-shadow: 0 10px 0 1px black, 0 16px 0 1px black, 0 22px 0 1px black;
 }
+ul.off-canvas-list li a {
+    border-bottom: 1px solid #f0f0f0;
+    font-family: adelle, Georgia, Serif;
+}
+.move-right a.exit-off-canvas {
+    border-left: 1px solid #f0f0f0;
+    box-shadow: none;
+}
 
 
 
