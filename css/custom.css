@@ -308,6 +308,11 @@ ul.off-canvas-list li a {
 
 /* Odd numbwer of staff
 */
+
+
+
+
+
 @media only screen and (min-width: 40.063em) {
     /* Before Andrew
     #team-second-row .medium-11 { width: 89.33333% }
@@ -316,7 +321,10 @@ ul.off-canvas-list li a {
     /* Andrew Start*/
     #team-second-row .medium-11 { width: 80.33333% }
     #team-second-row .medium-2 { width: 13.8%; }
-
+    .medium-5 {
+        position: relative;
+        width: 44.66667%;
+    }
 }
 
 @media only screen and max-width 768px {
