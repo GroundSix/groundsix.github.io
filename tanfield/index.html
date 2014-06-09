@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
+    <title>The Tanfield Group Investor Relations Website</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/custom.css" />
     <script src="js/vendor/modernizr.js"></script>
@@ -20,11 +20,28 @@
     .touch_video { height: 100%; width: 100%; background-size: cover; }
     .page_touch_video { min-height: 500px; }
     .dots { background: url('img/dots.png'); width: 100%; height: 100%; position: absolute; top: left; }
-</style>
 
+
+
+
+</style>
+<style>
+/*Live Stats*/
+    #live-stats,
+    #live-stats html,
+    #live-stats html body,
+    #live-stats div,
+    body {
+        background-color:rgba(0,0,0,0)!important;
+        border: 0;
+    }
+    #live-stats *{
+        background-color:rgba(0,0,0,0) !important;
+    }
+</style>
     <div class="flare_holder" style="left: 0px; height: 898px; width: 1918px;">
         <div class="flare">
-            <video class="main_video" preload="" autoplay="" loop="" width="100%" height="100%" poster=" ">
+            <video class="main_video" preload="" autoplay="" loop="" width="100%" height="100%" poster="img/poster.png">
                 <source src="vid/flare.mp4" type="video/ogg">
                 <source src="vid/flare.mp4" type="video/mp4">
             </video>
@@ -58,6 +75,9 @@
                 <h1>Establishing Technologies</h1>
                 <p>As of 28th October 2013, The Tanfield Group Plc is classified as an investing company. the company has a 49% membership interest in Snorkel International Holdings and a 24% interest in the shares of Smith Electric Vehicles Corp.</p>
             </div>
+
+
+            <iframe tran id="live-stats" src="http://online.hemscottir.com/ir/tan/ir.jsp?page=share-price" wmode="transparent" frameborder="0"></iframe>
         </div>
     </div>
 
@@ -98,6 +118,9 @@
             </div>
         </div>
     </div>
+
+
+
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
