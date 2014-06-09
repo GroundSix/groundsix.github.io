@@ -20,6 +20,11 @@
     .touch_video { height: 100%; width: 100%; background-size: cover; }
     .page_touch_video { min-height: 500px; }
     .dots { background: url('img/dots.png'); width: 100%; height: 100%; position: absolute; top: left; }
+    @media only screen and (max-width: 1024px) {
+        .flare {
+            display: none;
+        }
+    }
 
     /*Live Stats*/
     #live-stats,
@@ -29,7 +34,6 @@
     body {
         background-color:rgba(0,0,0,0)!important;
         border: 0;
-        display: none;
     }
     #live-stats *{
         background-color:rgba(0,0,0,0) !important;
@@ -38,8 +42,8 @@
     <div class="flare_holder" style="left: 0px; height: 898px; width: 1918px;">
         <div class="flare">
             <video class="main_video" preload="" autoplay="" loop="" width="100%" height="100%" poster="img/poster.png">
-                <source src="vid/flare.ogg" type="video/ogg">
                 <source src="vid/flare.mp4" type="video/mp4">
+                <source src="vid/flare.ogg" type="video/ogg">
             </video>
         </div>
         <div class="dots"></div>
