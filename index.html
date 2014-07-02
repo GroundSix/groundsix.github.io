@@ -74,7 +74,143 @@
                         </div>
                     </div>
                 </div>
+
+
+
+<style>
+
+.business-orbit {
+    height: 400px;
+}
+
+.orbit-logos {
+    margin:50px 0 ;
+}
+.orbit-container .orbit-slide-number,
+.orbit-container .orbit-timer {
+    display: none;
+}
+.orbit-container .orbit-slides-container img {
+    margin: 0 auto;
+}
+
+.orbit-container .orbit-slides-container > * .orbit-caption {
+    font-family: inherit;
+    position:relative;
+    font-weight: normal;
+    font-size: .8rem;
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+    text-rendering: optimizeLegibility;
+    width: 66%;
+    margin: 0 auto;
+    background: none;
+    color: #000;
+}
+.orbit-container .orbit-prev, .orbit-container .orbit-next {
+    height:51px;
+    width: 21px;
+    top: 30%;
+}
+.orbit-container .orbit-prev > span, .orbit-container .orbit-next > span {
+    border: none;
+    top: 0;
+    opacity: .5
+}
+.orbit-container .orbit-prev:hover > span, .orbit-container .orbit-next:hover > span {
+    opacity: 1
+}
+.orbit-container .orbit-prev > span {
+    background: url(img/orbit-logos/orbit-prev.png) center no-repeat;
+    height:51px;
+    width: 21px;
+    padding:0;
+    margin: 0;
+}
+.orbit-container .orbit-next > span {
+    background: url(img/orbit-logos/orbit-next.png) center no-repeat;
+    height:51px;
+    width: 21px;
+    left: 0;
+    padding:0;
+    margin: 0;
+}
+.orbit-logos img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+    opacity: .5;
+}
+.orbit-logos img:hover,
+.orbit-logos.active img {
+     filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    opacity: 1;
+}
+</style>
                 <div id="panel-two">
+                    <div class="row">
+                        <div class="medium-10 medium-centered columns text-center">
+
+                            <h2>BUSINESSES</h2>
+                            <h5>We can’t show you everything we’re working on, but here’s a taster...</h5>
+
+                            <div class="orbit-logos hide-for-small">
+                                <a data-orbit-link="headline-1" class="orbit-logos">
+                                  <img border="0" src="img/orbit-logos/bdaily.png">
+                                </a>
+                                <a data-orbit-link="headline-2" class="orbit-logos">
+                                  <img border="0" src="img/orbit-logos/faceifi.png">
+                                </a>
+                                <a data-orbit-link="headline-3" class="orbit-logos">
+                                  <img border="0" src="img/orbit-logos/dissrespect.png">
+                                </a>
+                                <a data-orbit-link="headline-4" class="orbit-logos">
+                                  <img border="0" src="img/orbit-logos/streemly.png">
+                                </a>
+                                <a data-orbit-link="headline-5" class="orbit-logos">
+                                  <img border="0" src="img/orbit-logos/g6-data.png">
+                                </a>
+                            </div>
+
+                            <ul class="business-orbit" data-orbit>
+                                <li data-orbit-slide="headline-1">
+                                    <img src="img/orbit-logos/bdaily-slide.png" alt="slide 1" data-orbit-slide="headline-1"/>
+                                    <h3>Bdaily</h3>
+                                    <div class="orbit-caption"> Bdaily is all about SME business news; delivered through our website, apps and morning email bulletin. Customise your content to suit your location and interests then we will bring you the latest happenings in your region, including jobs and events.</div>
+                                </li>
+                              <li data-orbit-slide="headline-2" class="active">
+                                <img src="img/faceifi-fallback.png" alt="slide 2" data-orbit-slide="headline-2" />
+                                <h3>Faceifi</h3>
+                                <div class="orbit-caption">Use Faceifi to discover new people using just a picture, or create a profile so they can discover you. You can search the faces in photographs, online or straight from your camera to find out about people you’ve never met and connect with them instantly.</div>
+                              </li>
+                              <li data-orbit-slide="headline-3">
+                                <img src="img/orbit-logos/dissrespect-slide.png" alt="slide 3" data-orbit-slide="headline-3" />
+                                <h3>Diss//Respect</h3>
+                                <div class="orbit-caption">Facial recognition and language algorithms combine to create a fun, witty mobile app. Upload a photo of a face, choose to have the app “diss” or “respect” it, and then see what it throws back. Not for the feint hearted.</div>
+                              </li>
+                              <li data-orbit-slide="headline-4">
+                                <img src="img/orbit-logos/streemly-slide.png" alt="slide 4" data-orbit-slide="headline-4" />
+                                <h3>Streem.ly</h3>
+                                <div class="orbit-caption">Location-based video streaming for mobile, tablet and desktop. Share live video with everyone, wherever you are. Tune in to view what people are seeing around you.</div>
+                              </li>
+                              <li data-orbit-slide="headline-5">
+                                <img src="img/orbit-logos/g6-data-slide.png" alt="slide 5" data-orbit-slide="headline-5" />
+                                <h3>G6 Data</h3>
+                                <div class="orbit-caption">The data arm of Ground Six Limited, G6 Data specialises in providing data for technology and app companies (including those created by Ground Six). A large, interrogatable database to be used for targeted marketing communications.</div>
+                              </li>
+                            </ul>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- <div id="panel-two">
                     <div class="row">
                         <div class="medium-10 medium-centered columns">
                             <div class="row">
@@ -170,7 +306,18 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
+
+
+
+
+
+
+
+
+
+
+
                 <div id="panel-three">
                     <div class="row">
                         <div class="medium-6 columns small-10 small-centered medium-centered">
