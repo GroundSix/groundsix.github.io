@@ -353,14 +353,14 @@ ul.off-canvas-list li a {
     opacity: 1
 }
 .orbit-container .orbit-prev > span {
-    background: url(img/orbit-logos/orbit-prev.png) center no-repeat;
+    background: url(../img/orbit-logos/orbit-prev.png) center no-repeat;
     height:51px;
     width: 21px;
     padding:0;
     margin: 0;
 }
 .orbit-container .orbit-next > span {
-    background: url(img/orbit-logos/orbit-next.png) center no-repeat;
+    background: url(../img/orbit-logos/orbit-next.png) center no-repeat;
     height:51px;
     width: 21px;
     left: 0;
